@@ -661,9 +661,15 @@ I believe GraphQL is the next generation of API, and the [Apollo GraphQL toolset
 We are only scratching the surface here for GraphQL and the Apollo Platform. In fact, there are a lot more to be covered. Below are some of the topics that I am thinking of to be covered next. Please leave comments and let me know which ones you’re interested in 😉
 
 🍃 Apollo Server: Connect to MongoDB with Mongoose
+
 🔐 Apollo Server: Authentication and Authorization with JWT
+
 ✅ Apollo Server: Test schema and resolvers
+
 🐳 Apollo Server: Deploy dockerized Apollo Server on Heroku
+
 🌚 CircleCI: Test-build-deploy with CircleCI 2.1 Orbs
+
 🏎Apollo Engine: Production-ready
+
 🎨Apollo Client: Angular + NativeScript or React + ReactNative
