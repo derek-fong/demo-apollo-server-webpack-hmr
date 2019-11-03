@@ -1,0 +1,47 @@
+{
+  "name": "demo-apollo-server-webpack-hmr",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack --config webpack.$NODE_ENV.js",
+    "start": "node dist/server",
+    "start:env": "node --require dotenv/config dist/server",
+    "test": "jest"
+  },
+  "repository": "github:derek-fong/demo-apollo-server-webpack-hmr",
+  "author": "Derek Fong <derek.fong@alppix.com>",
+  "bugs": {
+    "url": "https://github.com/derek-fong/demo-apollo-server-webpack-hmr/issues"
+  },
+  "homepage": "https://github.com/derek-fong/demo-apollo-server-webpack-hmr#readme",
+  "dependencies": {
+    "apollo-server": "^2.9.7",
+    "graphql": "^14.5.8"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "@types/jest": "^24.0.21",
+    "@types/webpack-env": "^1.14.1",
+    "@typescript-eslint/eslint-plugin": "^2.6.0",
+    "@typescript-eslint/parser": "^2.6.0",
+    "apollo-server-testing": "^2.9.7",
+    "clean-webpack-plugin": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "husky": "^3.0.9",
+    "jest": "^24.9.0",
+    "lint-staged": "^9.4.2",
+    "prettier": "1.18.2",
+    "ts-jest": "^24.1.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-merge": "^4.2.2",
+    "webpack-node-externals": "^1.7.2"
+  }
+}

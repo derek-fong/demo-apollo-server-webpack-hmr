@@ -1,0 +1,20 @@
+# Compiled Outputs
+/dist
+/tmp
+
+# Dependencies
+/node_modules
+
+# IDEs and Editors
+/.idea
+/.vscode
+
+# Misc.
+/coverage
+/typings
+.env
+npm-debug.log
+
+# System Files
+.DS_Store
+Thumbs.db
