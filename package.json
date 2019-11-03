@@ -1,0 +1,14 @@
+{
+  "name": "demo-apollo-server-webpack-hmr",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "github:derek-fong/demo-apollo-server-webpack-hmr",
+  "author": "Derek Fong <derek.fong@alppix.com>",
+  "bugs": {
+    "url": "https://github.com/derek-fong/demo-apollo-server-webpack-hmr/issues"
+  },
+  "homepage": "https://github.com/derek-fong/demo-apollo-server-webpack-hmr#readme"
+}
