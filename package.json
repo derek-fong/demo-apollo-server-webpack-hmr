@@ -11,5 +11,10 @@
   "bugs": {
     "url": "https://github.com/derek-fong/demo-apollo-server-webpack-hmr/issues"
   },
-  "homepage": "https://github.com/derek-fong/demo-apollo-server-webpack-hmr#readme"
+  "homepage": "https://github.com/derek-fong/demo-apollo-server-webpack-hmr#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "husky": "^3.0.9"
+  }
 }
